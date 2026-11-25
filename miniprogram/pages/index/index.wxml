@@ -1,0 +1,19 @@
+<view class="wrap">
+  <view class="card">
+    <view class="logo">集</view>
+    <view class="title">校园集市</view>
+    <view class="sub">这一页只是给微信开发者工具用的「挂载点」</view>
+
+    <view class="divider"></view>
+
+    <view class="block-title">真正的页面在这里打开</view>
+    <view class="url" bindtap="copyUrl">{{url}} · 点我复制</view>
+
+    <view class="block-title">接下来在这个工具里做三件事</view>
+    <view class="step"><text class="n">1</text><text class="t">点右上角「云开发」，开通一个环境，记下环境 ID</text></view>
+    <view class="step"><text class="n">2</text><text class="t">左侧 cloudfunctions 里的 api 右键 → 上传并部署（云端安装依赖）</text></view>
+    <view class="step"><text class="n">3</text><text class="t">建 5 个集合、开 HTTP 访问服务，把地址填进 web/js/config.js</text></view>
+
+    <view class="tip">详细步骤见项目里的 docs/部署说明.md</view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "校园集市业务接口（云函数）",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "@cloudbase/node-sdk": "^2.9.0",
+    "wx-server-sdk": "~2.6.3"
+  }
+}

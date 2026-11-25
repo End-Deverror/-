@@ -1,0 +1,6 @@
+{
+  "name": "campus-market-web",
+  "private": true,
+  "type": "module",
+  "description": "校园集市前端（纯静态 ES 模块，无需构建）"
+}

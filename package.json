@@ -1,0 +1,19 @@
+{
+  "name": "campus-market",
+  "version": "1.0.0",
+  "private": true,
+  "description": "校园集市 · 学生二手交易平台",
+  "scripts": {
+    "start": "python -m http.server 8765 --bind 127.0.0.1 --directory web",
+    "test": "node scripts/selftest.mjs",
+    "test:http": "node scripts/http-check.mjs",
+    "test:ui": "node scripts/dom-test.mjs buyer && node scripts/dom-test.mjs admin",
+    "probe": "node scripts/probe-cloud.mjs",
+    "probe:site": "node scripts/probe-static.mjs",
+    "probe:images": "node scripts/check-images.mjs",
+    "probe:search": "node scripts/check-search.mjs"
+  },
+  "devDependencies": {
+    "jsdom": "^24.1.0"
+  }
+}
